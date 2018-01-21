@@ -8,5 +8,7 @@ def fizzbuzz(n):
             print "fizz"
         elif i % 5 == 0:
             print "buzz"
+        elif i % 7 == 0:
+            print "bizz"    
         else:
             print i
