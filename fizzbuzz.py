@@ -11,6 +11,8 @@ def fizzbuzz(n):
         elif i % 7 == 0:
             print "bizz"
         elif i % 10 == 0:
-            print "duh"    
+            print "duh"
+        elif i % 2 == 0:
+            print "i added this after a branch!"
         else:
             print i
